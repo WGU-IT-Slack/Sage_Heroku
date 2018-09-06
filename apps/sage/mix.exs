@@ -5,10 +5,10 @@ defmodule Sage.Mixfile do
     [
       app: :sage,
       version: "0.1.0",
-	  build_path: "../../_build",
+      build_path: "../../_build",
       config_path: "../../config/config.exs",
-	  deps_path: "../../deps",
-	  lockfile: "../../mix.lock",
+      deps_path: "../../deps",
+      lockfile: "../../mix.lock",
       elixir: "~> 1.4",
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
@@ -44,7 +44,7 @@ defmodule Sage.Mixfile do
       {:poison, "~> 3.1"},
       {:timex, "~> 3.0"},
       {:floki, "~> 0.20.0"},
-	  {:HerokuBuildpackTest, in_umbrella: true}
+      {:HerokuBuildpackTest, in_umbrella: true}
     ]
   end
 end
