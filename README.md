@@ -16,16 +16,12 @@ Both can be found in their respective folders under .\apps
 
 __PROTOCOL__:
   - Create a new branch and make a pull request
-  - Once CI passes, wait for admin to approve or create a review application.
-  
-  - If admin approves, you're done! Congratulations!
-  
+  - If admin approves, you're done! Congratulations! 
   - If admin creates a review application, navigate to the given url to wake it up and then test in #testing.
   - Comment on pull request after successful testing.
   - Admin approve pull request. Congratulations!
 
 __ADMIN TO DO__:
-  - Fix Travis CI integration or adapt to Heroku CI
   - Forward a domain to the web app
   
 __CONTRIBUTOR TO DO__:
