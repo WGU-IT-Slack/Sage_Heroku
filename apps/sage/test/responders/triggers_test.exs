@@ -14,7 +14,7 @@ defmodule Sage.Responders.TriggersTest do
   test "!git repo", %{adapter: adapter, msg: msg} do
     send adapter, {:message, %{msg | text: "!git"}}
     assert_receive {:message, %{text: text}}
-    assert String.contains?(text, "https://github.com/wgu-it-slack/sage-bot")
+    assert String.contains?(text, "https://github.com/WGU-IT-Slack/Sage_Heroku/tree/master/apps/sage")
   end
 
   @tag start_robot: true, name: "alfred", responders: [{Sage.Responders.Triggers, []}]
