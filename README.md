@@ -9,18 +9,18 @@ This is an umbrella Elixir application that runs 2 elixir applicatons:
 The application structure is as follows:
   
   Sage Umbrella
-    - HerokuBuildPackTest
-    - Sage (calls HerokuBuildPackTest as a dependency)
+   - HerokuBuildPackTest
+   - Sage (calls HerokuBuildPackTest as a dependency)
     
 Both can be found in their respective folders under .\apps
 
 Please compile locally before making a pull request. All pull requests must be approved.
 
-ADMIN TO DO:
-  Fix Travis CI integration or adapt to Heroku CI
-  Forward a domain to the web app
+__ADMIN TO DO__:
+  - Fix Travis CI integration or adapt to Heroku CI
+  - Forward a domain to the web app
   
-CONTRIBUTOR TO DO:
-  Add all courses to the course list
-  Create other triggers
-  Add interesting information to the web portion
+__CONTRIBUTOR TO DO__:
+  - Add all courses to the course list
+  - Create other triggers
+  - Add interesting information to the web portion
