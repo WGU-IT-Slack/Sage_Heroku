@@ -1,0 +1,35 @@
+{
+  "name": "Sage_Heroku",
+  "scripts": {
+  },
+  "env": {
+    "MIX_ENV": {
+      "required": true
+    },
+    "POOL_SIZE": {
+      "required": true
+    },
+    "SLACK_BOT": {
+      "required": true
+    },
+    "SLACK_BOT_ALIAS": {
+      "required": true
+    },
+    "SLACK_TOKEN": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/HashNuke/heroku-buildpack-elixir.git"
+    }
+  ]
+}
