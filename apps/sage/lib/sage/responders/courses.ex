@@ -52,7 +52,7 @@ defmodule Sage.Responders.Courses do
   @usage """
   `bubo provision <code>` - Responds with the course provision link
   """
-  respond ~r/describe (([a-zA-Z]{1,3})(?:\s|-)?([0-9]{1,4}))/i, msg do
+  respond ~r/provision (([a-zA-Z]{1,3})(?:\s|-)?([0-9]{1,4}))/i, msg do
     code = sanitize(msg.matches[1])
 
     case CourseList.find_by_code(code) do
