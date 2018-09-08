@@ -59,7 +59,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C182" => [
       name: "Introduction to IT",
-      desc: "This course introduces students to information technology as a discipline and the various roles and functions of the IT department as business support. Students are presented with various IT disciplines including systems and services, network and security, scripting and programming, data management, and business of IT, with a survey of technologies in every area and how they relate to each other and to the business."
+      desc: "This course introduces students to information technology as a discipline and the various roles and functions of the IT department as business support. Students are presented with various IT disciplines including systems and services, network and security, scripting and programming, data management, and business of IT, with a survey of technologies in every area and how they relate to each other and to the business.",
+      provision: "https://lrps.wgu.edu/provision/127094953"
     ],
     "C183" => [
       name: "Operating Systems",
@@ -260,7 +261,7 @@ defmodule Sage.Support.CourseList do
     "C482" => [
       name: "Software I",
       desc: "Software I builds object-oriented programming expertise and introduces powerful new tools for Java application development. You will learn about and put into action class design, exception handling, and other object-oriented principles and constructs to develop software that meets business requirements. This course requires foundational knowledge of object-oriented programming and the Java language."
-      ],
+    ],
     "C483" => [
       name: "Principles of Management",
       desc: "In this course students will learn about strategic planning, total quality, entrepreneurship, conflict and change, human resource management, diversity, and organizational structure."
@@ -363,7 +364,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C754" => [
       name: "Structured Query Language - Oracle DB 12c SQL Fundamentals",
-      desc: "This course focuses on structured query language (SQL). It starts with a review of the basic statements and continues on to the creation of complex queries that affect multiple tables and utilize SQL functions. Data manipulation language (DML) and data definition language (DDL) are also covered, thus enabling the student to create and maintain database objects and modify data by using SQL commands"
+      desc: "This course focuses on structured query language (SQL). It starts with a review of the basic statements and continues on to the creation of complex queries that affect multiple tables and utilize SQL functions. Data manipulation language (DML) and data definition language (DDL) are also covered, thus enabling the student to create and maintain database objects and modify data by using SQL commands",
+      provision: "https://lrps.wgu.edu/provision/71030921"
     ],
     "C755" => [
       name: "Database Server Administration - Oracle DB 12c Installation and Administration",
@@ -395,7 +397,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C779" => [
       name: "Web Development Foundations - CIW Site Development Fundamentals",
-      desc: "This course introduces students to web design and development by presenting them with HTML5 and CSS, the foundational languages of the web, by reviewing media strategies, and by using tools and techniques commonly employed in web development."
+      desc: "This course introduces students to web design and development by presenting them with HTML5 and CSS, the foundational languages of the web, by reviewing media strategies, and by using tools and techniques commonly employed in web development.",
+      provision: "https://lrps.wgu.edu/provision/85273497"
     ],
     "C836" => [
       name: "Fundamentals of Information Security",
@@ -439,7 +442,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C846" => [
       name: "Business of IT - Applications",
-      desc: "Business of IT – Applications examines Information Technology Infrastructure Library (ITIL) terminology, structure, policies, and concepts. Focusing on the management of Information Technology (IT) infrastructure, development, and operations, students will explore the core principles of ITIL practices for service management to prepare them for careers as IT professionals, business managers, and business process owners. This course has no prerequisites."
+      desc: "Business of IT – Applications examines Information Technology Infrastructure Library (ITIL) terminology, structure, policies, and concepts. Focusing on the management of Information Technology (IT) infrastructure, development, and operations, students will explore the core principles of ITIL practices for service management to prepare them for careers as IT professionals, business managers, and business process owners. This course has no prerequisites.",
+      provision: "https://lrps.wgu.edu/provision/98818548"
     ],
     "C849" => [
       name: "Cloud Foundations",
@@ -453,7 +457,7 @@ defmodule Sage.Support.CourseList do
       name: "Linux Foundations",
       desc: "Linux Foundations is an introduction to Linux as an operating system as well as an introduction to open source concepts and the basics of the Linux command line. Expert content, a Linux virtual machine, and step-by-step labs give you hands-on access to practice Linux command line concepts. Linux is widely used in different industries for all kinds of functions including web servers, firewalls, and graphic design, and provides robust functionality and a stable, secure environment that is not often found in any other client operating system."
     ],
-     "C856" => [
+    "C856" => [
       name: "User Experience Design",
       desc: "User Experience Design explores multiple tools and techniques used in user experience design. Students are presented with an in-depth view of activities involved in the design of user experience and have the opportunity to create several deliverables including persona profiles, information architectures, and prototypes of different levels of fidelity. In addition, the course also covers usability testing and the evaluation of quantitative and qualitative data derived from these and other experiments."
     ],
@@ -492,7 +496,6 @@ defmodule Sage.Support.CourseList do
     "C958" => [
       name: "Calculus I",
       desc: "Calculus students apply theoretical concepts of calculus to real-world situations, demonstrating a developing mathematical mindset. This course focuses on limits, derivatives, integrals, and differential equations; it also prepares students for Discrete Mathematics. Prerequisites may include an entrance exam that assesses pre-calculus skills, or readiness; alternatively, completion of pre-calculus within the past 3 – 5 years."
-
     ],
     "C959" => [
       name: "Discrete Math I",
