@@ -24,13 +24,13 @@ defmodule Sage.Responders.Overhear do
     emote msg, "debug"
   end
 
-  # Motivational video
+# Motivational video. JankowskiR commented out the if statements to reduce duplication that's unnecessary.
   hear ~r/^just do it,?(?: (\w+))?$/, msg do
-    if msg.matches[1] do
+#    if msg.matches[1] do
       send msg, "#{msg.matches[1]}: https://www.youtube.com/watch?v=hAEQvlaZgKY"
-    else
-      send msg, "https://www.youtube.com/watch?v=hAEQvlaZgKY"
-    end
+#    else
+#      send msg, "https://www.youtube.com/watch?v=hAEQvlaZgKY"
+#    end
   end
 
   # Relax
