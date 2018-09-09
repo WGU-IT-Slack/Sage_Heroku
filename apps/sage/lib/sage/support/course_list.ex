@@ -19,35 +19,43 @@ defmodule Sage.Support.CourseList do
     ],
     "C165" => [
       name: "Integrated Physical Science",
-      desc: "This course provides students with an overview of the basic principles and unifying ideas of the physical sciences: physics, chemistry, and Earth sciences. Course materials focus on scientific reasoning and practical and everyday applications of physical science concepts to help students integrate conceptual knowledge with practical skills."
+      desc: "This course provides students with an overview of the basic principles and unifying ideas of the physical sciences: physics, chemistry, and Earth sciences. Course materials focus on scientific reasoning and practical and everyday applications of physical science concepts to help students integrate conceptual knowledge with practical skills.",
+      provision: "https://lrps.wgu.edu/provision/86803996"
     ],
     "C168" => [
       name: "Critical Thinking and Logic",
-      desc: "Reasoning and Problem Solving helps students internalize a systematic process for exploring issues that takes them beyond an unexamined point of view and encourages them to become more self-aware thinkers by applying principles of problem identification and clarification, planning and information gathering, identifying assumptions and values, analysis and interpretation of information and data, reaching well-founded conclusions, and identifying the role of critical thinking in the disciplines and professions."
+      desc: "Reasoning and Problem Solving helps students internalize a systematic process for exploring issues that takes them beyond an unexamined point of view and encourages them to become more self-aware thinkers by applying principles of problem identification and clarification, planning and information gathering, identifying assumptions and values, analysis and interpretation of information and data, reaching well-founded conclusions, and identifying the role of critical thinking in the disciplines and professions.",
+      provision: "https://lrps.wgu.edu/provision/2229"
     ],
     "C169" => [
       name: "Scripting and Programming - Applications",
-      desc: "This course provides an introduction to programming. It covers data structures, algorithms, and programming paradigms. It presents the concept of an object as well as the object-oriented paradigm and its importance. A survey of languages is covered and the distinction between interpreted and compiled languages is introduced."
+      desc: "This course provides an introduction to programming. It covers data structures, algorithms, and programming paradigms. It presents the concept of an object as well as the object-oriented paradigm and its importance. A survey of languages is covered and the distinction between interpreted and compiled languages is introduced.",
+      provision: "https://lrps.wgu.edu/provision/67237853"
     ],
     "C170" => [
       name: "Data Management - Applications",
-      desc: "This course covers conceptual data modeling and provides an introduction to MySQL. Students will learn how to create simple to complex SELECT queries including subqueries and joins, and will also learn how to use SQL to update and delete data. Topics covered in this course include exposure to MySQL; developing physical schemas; creating and modifying databases, tables, views, foreign keys/primary keys (FKs/PKs), and indexes; populating tables; and developing simple Select-From-Where (SFW) queries to complex 3+ table join queries."
+      desc: "This course covers conceptual data modeling and provides an introduction to MySQL. Students will learn how to create simple to complex SELECT queries including subqueries and joins, and will also learn how to use SQL to update and delete data. Topics covered in this course include exposure to MySQL; developing physical schemas; creating and modifying databases, tables, views, foreign keys/primary keys (FKs/PKs), and indexes; populating tables; and developing simple Select-From-Where (SFW) queries to complex 3+ table join queries.",
+      provision: "https://lrps.wgu.edu/provision/89082851"
     ],
     "C172" => [
       name: "Network and Security - Foundations",
-      desc: "This course introduces students to the components of a computer network and the concept and role of communication protocols. The course will cover widely used categorical classifications of networks (i.e CAN, LAN, MAN, WAN) as well as network topologies, physical devices, and layered abstraction. The course will also introduce students to basic concepts of security, covering vulnerabilities of networks and mitigation techniques, security of physical media, and security policies and procedures."
+      desc: "This course introduces students to the components of a computer network and the concept and role of communication protocols. The course will cover widely used categorical classifications of networks (i.e CAN, LAN, MAN, WAN) as well as network topologies, physical devices, and layered abstraction. The course will also introduce students to basic concepts of security, covering vulnerabilities of networks and mitigation techniques, security of physical media, and security policies and procedures.",
+      provision: "https://lrps.wgu.edu/provision/103823507"
     ],
     "C173" => [
       name: "Scripting and Programming - Foundations",
-      desc: "This course provides an introduction to programming covering data structures, algorithms, and programming paradigms. The course presents the student with the concept of an object as well as the object-oriented paradigm and its importance. A survey of languages is covered and the distinction between interpreted and compiled languages is introduced."
+      desc: "This course provides an introduction to programming covering data structures, algorithms, and programming paradigms. The course presents the student with the concept of an object as well as the object-oriented paradigm and its importance. A survey of languages is covered and the distinction between interpreted and compiled languages is introduced.",
+      provision: "https://lrps.wgu.edu/provision/130661796"
     ],
     "C175" => [
       name: "Data Management - Foundations",
-      desc: "This course introduces students to the concepts and terminology used in the field of data management. They will be introduced to Structured Query Language (SQL) and will learn how to use Data Definition Language (DDL) and Data Manipulation Language (DML) commands to define, retrieve, and manipulate data. This course covers differentiations of data—structured vs. unstructured and quasi-structured (relational, hierarchical, XML, textual, visual, etc); it also covers aspects of data management (quality, policy, storage methodologies). Foundational concepts of data security are included."
+      desc: "This course introduces students to the concepts and terminology used in the field of data management. They will be introduced to Structured Query Language (SQL) and will learn how to use Data Definition Language (DDL) and Data Manipulation Language (DML) commands to define, retrieve, and manipulate data. This course covers differentiations of data—structured vs. unstructured and quasi-structured (relational, hierarchical, XML, textual, visual, etc); it also covers aspects of data management (quality, policy, storage methodologies). Foundational concepts of data security are included.",
+      provision: "https://lrps.wgu.edu/provision/30588280"
     ],
     "C176" => [
       name: "Business of IT - Project Management",
-      desc: "This course introduces the student to the project management & business analysis process within the context of an IT project. Fundamental concepts of project management will be covered including all phase of project management during a system life cycle including business analysis, requirements capturing, issue tracking, and release planning. Additional topics to include: development environments (dev, integration, QA, production), help desk and support, IT planning for business continuity. This course prepares students for the following certification exam: CompTIA Project+."
+      desc: "This course introduces the student to the project management & business analysis process within the context of an IT project. Fundamental concepts of project management will be covered including all phase of project management during a system life cycle including business analysis, requirements capturing, issue tracking, and release planning. Additional topics to include: development environments (dev, integration, QA, production), help desk and support, IT planning for business continuity. This course prepares students for the following certification exam: CompTIA Project+.",
+      provision: "https://lrps.wgu.edu/provision/113956651"
     ],
     "C178" => [
       name: "Network and Security - Applications",
@@ -55,7 +63,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C179" => [
       name: "Business of IT - Applications",
-      desc: "This course introduces IT students to information systems (IS). The course includes important topics related to management of information systems (MIS), such as system development, and business continuity. The course also provides an overview of management tools and issue tracking systems."
+      desc: "This course introduces IT students to information systems (IS). The course includes important topics related to management of information systems (MIS), such as system development, and business continuity. The course also provides an overview of management tools and issue tracking systems.",
+      provision: "https://lrps.wgu.edu/provision/123423795"
     ],
     "C182" => [
       name: "Introduction to IT",
@@ -84,7 +93,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C188" => [
       name: "Software Engineering",
-      desc: "This course introduces the concepts of software engineering to IT core graduates. It is a standalone course that is critical to the IT program. It emphasizes the need for a disciplined approach to software engineering by providing an overview of software and software engineering processes and why they are challenging. A generic process framework is covered to provide the groundwork for formal process models. Prescriptive process models (e.g., Waterfall Model) and Agile Development is included. An introduction to the"
+      desc: "This course introduces the concepts of software engineering to IT core graduates. It is a standalone course that is critical to the IT program. It emphasizes the need for a disciplined approach to software engineering by providing an overview of software and software engineering processes and why they are challenging. A generic process framework is covered to provide the groundwork for formal process models. Prescriptive process models (e.g., Waterfall Model) and Agile Development is included. An introduction to the",
+      provision: "https://lrps.wgu.edu/provision/124090438"
     ],
     "C189" => [
       name: "Data Structures",
@@ -96,23 +106,28 @@ defmodule Sage.Support.CourseList do
     ],
     "C191" => [
       name: "Operating Systems for Programmers",
-      desc: "This course covers operating systems from the perspective of a programmer including the placement of the operating system in the layered application development model. Primarily OSs provide Memory Management, Task Scheduling, and CPU allocation. Secondarily, OSs provide tools for file storage/access, permission control, event handling, network access, and cross-process interaction. OSs also provide tools for debugging problems within a single process or within groups of programs."
+      desc: "This course covers operating systems from the perspective of a programmer including the placement of the operating system in the layered application development model. Primarily OSs provide Memory Management, Task Scheduling, and CPU allocation. Secondarily, OSs provide tools for file storage/access, permission control, event handling, network access, and cross-process interaction. OSs also provide tools for debugging problems within a single process or within groups of programs.",
+      provision: "https://lrps.wgu.edu/provision/34735989"
     ],
     "C192" => [
       name: "Data Management for Programmers",
-      desc: "This course introduces storage of various kinds and formats of data. Students will use standard SQL to demonstrate query capabilities provided by database management systems. The course will further cover data-related topics: data presentation, security (access and encryption), transaction management, and administration (backup, disaster recovery, and performance tuning). This course will address advanced topics such as data warehousing, data mining and distributed databases."
+      desc: "This course introduces storage of various kinds and formats of data. Students will use standard SQL to demonstrate query capabilities provided by database management systems. The course will further cover data-related topics: data presentation, security (access and encryption), transaction management, and administration (backup, disaster recovery, and performance tuning). This course will address advanced topics such as data warehousing, data mining and distributed databases.",
+      provision: "https://lrps.wgu.edu/provision/30588390"
     ],
     "C193" => [
       name: "Client-Server Application Development",
-      desc: "This course introduces students to client/server application programming classes, structures, and concepts. The course covers networking and client/server, streams, threads, URLs, URIs, HTTP, and socket programming concepts."
+      desc: "This course introduces students to client/server application programming classes, structures, and concepts. The course covers networking and client/server, streams, threads, URLs, URIs, HTTP, and socket programming concepts.",
+      provision: "https://lrps.wgu.edu/provision/30588456"
     ],
     "C195" => [
       name: "Software II - Advanced Java Concepts",
-      desc: "Software II – Advanced Java Concepts refines object-oriented programming expertise and builds database and file server application development skills. You will learn about and put into action lambda expressions, collections, input/output, advanced error handling, and the newest features of Java 8 to develop software that meets business requirements. This course requires intermediate expertise in object-oriented programming and the Java language."
+      desc: "Software II – Advanced Java Concepts refines object-oriented programming expertise and builds database and file server application development skills. You will learn about and put into action lambda expressions, collections, input/output, advanced error handling, and the newest features of Java 8 to develop software that meets business requirements. This course requires intermediate expertise in object-oriented programming and the Java language.",
+      provision: "https://lrps.wgu.edu/provision/126266342 or https://lrps.wgu.edu/provision/104431337"
     ],
     "C196" => [
       name: "Mobile Application Development",
-      desc: "This course introduces students to programming for mobile devices using a Software Development Kit (SDK). Students with previous knowledge of programming will learn how to install and utilize a SDK, build a basic mobile application, build a mobile applications using a graphical user interface(GUI), adapt applications to different mobile devices, save data, execute and debug mobile applications using emulators, and deploy a mobile application."
+      desc: "This course introduces students to programming for mobile devices using a Software Development Kit (SDK). Students with previous knowledge of programming will learn how to install and utilize a SDK, build a basic mobile application, build a mobile applications using a graphical user interface(GUI), adapt applications to different mobile devices, save data, execute and debug mobile applications using emulators, and deploy a mobile application.",
+      provision: "https://lrps.wgu.edu/provision/85423938 https://lrps.wgu.edu/provision/85424352 and https://lrps.wgu.edu/provision/85425272"
     ],
     "C200" => [
       name: "Managing Organizations and Leading People",
@@ -156,7 +171,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C221" => [
       name: "Operating Systems II",
-      desc: "This course prepares the student for vendor assessment CompTIA Linux + Part 2 LX0-102."
+      desc: "This course prepares the student for vendor assessment CompTIA Linux + Part 2 LX0-102.",
+      provision: "https://lrps.wgu.edu/provision/54199518"
     ],
     "C246" => [
       name: "Fundamentals of Interconnecting Network Devices",
@@ -204,11 +220,13 @@ defmodule Sage.Support.CourseList do
     ],
     "C393" => [
       name: "IT Foundations",
-      desc: "IT Foundations is the first course in a two-part series preparatory for the CompTIA A+ exam, Part I. Students will gain an understanding of personal computer components and their functions in a desktop system, as well as computer data storage and retrieval; classifying, installing, configuring, optimizing, upgrading, and troubleshooting printers, laptops, portable devices, operating systems, networks, and system security; recommending appropriate tools, diagnostic procedures, preventative maintenance and troubleshooting techniques for personal computer components in a desktop system; strategies for identifying, preventing, and reporting safety hazards and environmental/human accidents in"
+      desc: "IT Foundations is the first course in a two-part series preparatory for the CompTIA A+ exam, Part I. Students will gain an understanding of personal computer components and their functions in a desktop system, as well as computer data storage and retrieval; classifying, installing, configuring, optimizing, upgrading, and troubleshooting printers, laptops, portable devices, operating systems, networks, and system security; recommending appropriate tools, diagnostic procedures, preventative maintenance and troubleshooting techniques for personal computer components in a desktop system; strategies for identifying, preventing, and reporting safety hazards and environmental/human accidents in",
+      provision: "https://lrps.wgu.edu/provision/75635673"
     ],
     "C394" => [
       name: "IT Applications",
-      desc: "IT Applications is a continuation of the IT Foundations course preparatory for the CompTIA A+ exam, Part II. Students will gain an understanding of personal computer components and their functions in a desktop system. Also covered is computer data storage and retrieval, including classifying, installing, configuring, optimizing, upgrading, and troubleshooting printers, laptops, portable devices, operating systems, networks, and system security. Other areas include recommending appropriate tools, diagnostic procedures, preventative maintenance and troubleshooting techniques for personal computer components in a desktop system. The course then finished with strategies for identifying, preventing, and reporting safety hazards and environmental/human accidents in a technological environments, and effective communication with colleagues and clients as well as job-related professional behavior."
+      desc: "IT Applications is a continuation of the IT Foundations course preparatory for the CompTIA A+ exam, Part II. Students will gain an understanding of personal computer components and their functions in a desktop system. Also covered is computer data storage and retrieval, including classifying, installing, configuring, optimizing, upgrading, and troubleshooting printers, laptops, portable devices, operating systems, networks, and system security. Other areas include recommending appropriate tools, diagnostic procedures, preventative maintenance and troubleshooting techniques for personal computer components in a desktop system. The course then finished with strategies for identifying, preventing, and reporting safety hazards and environmental/human accidents in a technological environments, and effective communication with colleagues and clients as well as job-related professional behavior.",
+      provision: "https://lrps.wgu.edu/provision/75644381"
     ],
     "C434" => [
       name: "Medical Terminology",
@@ -240,7 +258,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C459" => [
       name: "Introduction to Probability and Statistics",
-      desc: "In this course, candidates demonstrate competency in the basic concepts, logic, and issues involved in statistical reasoning. Topics include summarizing and analyzing data, sampling and study design, and probability"
+      desc: "In this course, candidates demonstrate competency in the basic concepts, logic, and issues involved in statistical reasoning. Topics include summarizing and analyzing data, sampling and study design, and probability",
+      provision: "https://lrps.wgu.edu/provision/104432192"
     ],
     "C463" => [
       name: "Intermediate Algebra",
@@ -260,15 +279,18 @@ defmodule Sage.Support.CourseList do
     ],
     "C482" => [
       name: "Software I",
-      desc: "Software I builds object-oriented programming expertise and introduces powerful new tools for Java application development. You will learn about and put into action class design, exception handling, and other object-oriented principles and constructs to develop software that meets business requirements. This course requires foundational knowledge of object-oriented programming and the Java language."
+      desc: "Software I builds object-oriented programming expertise and introduces powerful new tools for Java application development. You will learn about and put into action class design, exception handling, and other object-oriented principles and constructs to develop software that meets business requirements. This course requires foundational knowledge of object-oriented programming and the Java language.",
+      provision: "https://lrps.wgu.edu/provision/104433232"
     ],
     "C483" => [
       name: "Principles of Management",
-      desc: "In this course students will learn about strategic planning, total quality, entrepreneurship, conflict and change, human resource management, diversity, and organizational structure."
+      desc: "In this course students will learn about strategic planning, total quality, entrepreneurship, conflict and change, human resource management, diversity, and organizational structure.",
+      provision: "https://lrps.wgu.edu/provision/104433232"
     ],
     "C484" => [
       name: "Organizational Behavior and Leadership",
-      desc: "This course explores how to lead and manage effectively in diverse business environments. Students are asked to demonstrate the ability to apply organizational leadership theories and management strategies in a series of scenario-based problems."
+      desc: "This course explores how to lead and manage effectively in diverse business environments. Students are asked to demonstrate the ability to apply organizational leadership theories and management strategies in a series of scenario-based problems.",
+      provision: "http://lrps.wgu.edu/provision/5215058"
     ],
     "C498" => [
       name: "MS, Information Technology Management Capstone",
@@ -377,11 +399,13 @@ defmodule Sage.Support.CourseList do
     ],
     "C768" => [
       name: "Technical Communication",
-      desc: "This course covers basic elements of technical communication, including professional written communication proficiency; the ability to strategize approaches for differing audiences; and technical style, grammar, and syntax proficiency."
+      desc: "This course covers basic elements of technical communication, including professional written communication proficiency; the ability to strategize approaches for differing audiences; and technical style, grammar, and syntax proficiency.",
+      provision: "https://lrps.wgu.edu/provision/71496204"
     ],
     "C769" => [
       name: "IT Capstone Written Project",
-      desc: "The capstone project consists of a technical work product and a report that details various aspects of the product. The final product will also include a journal that contemporaneously describes the candidate’s experience in developing the capstone. The topic of the capstone must be presented and approved by the student’s mentor."
+      desc: "The capstone project consists of a technical work product and a report that details various aspects of the product. The final product will also include a journal that contemporaneously describes the candidate’s experience in developing the capstone. The topic of the capstone must be presented and approved by the student’s mentor.",
+      provision: "https://lrps.wgu.edu/provision/88226198"
     ],
     "C772" => [
       name: "Data Analytics Graduate Capstone",
@@ -389,11 +413,13 @@ defmodule Sage.Support.CourseList do
     ],
     "C773" => [
       name: "User Interface Design",
-      desc: "This course prepares you for the CIW User Interface Designer certification. This course assumes an existing knowledge of HTML5 (Hypertext Markup Language) and CSS (cascading stylesheets) and covers material such as web design principles, typography, wireframing, and SEO."
+      desc: "This course prepares you for the CIW User Interface Designer certification. This course assumes an existing knowledge of HTML5 (Hypertext Markup Language) and CSS (cascading stylesheets) and covers material such as web design principles, typography, wireframing, and SEO.",
+      provision: "https://lrps.wgu.edu/provision/84259157"
     ],
     "C777" => [
       name: "Web Development Applications",
-      desc: "This course prepares students for the CIW Advanced HTML5 and CSS3 Specialist certification exam. This course builds upon a student's manual coding skills by teaching how to develop web documents and pages using the Web Development Trifecta: HTML5 (Hypertext Markup Language version 5) and CSS3 (Cascading Style Sheets version 3) and JavaScript. Students will utilize the skills learned in this course to create web documents and pages that easily adapt to display on both traditional and mobile devices. In addition, students will learn techniques for code validation and testing, form creation, inline form field validation, and mobile design for browsers and apps, including Responsive Web Design (RWD)"
+      desc: "This course prepares students for the CIW Advanced HTML5 and CSS3 Specialist certification exam. This course builds upon a student's manual coding skills by teaching how to develop web documents and pages using the Web Development Trifecta: HTML5 (Hypertext Markup Language version 5) and CSS3 (Cascading Style Sheets version 3) and JavaScript. Students will utilize the skills learned in this course to create web documents and pages that easily adapt to display on both traditional and mobile devices. In addition, students will learn techniques for code validation and testing, form creation, inline form field validation, and mobile design for browsers and apps, including Responsive Web Design (RWD)",
+      provision: "https://lrps.wgu.edu/provision/83382080"
     ],
     "C779" => [
       name: "Web Development Foundations - CIW Site Development Fundamentals",
@@ -402,7 +428,8 @@ defmodule Sage.Support.CourseList do
     ],
     "C836" => [
       name: "Fundamentals of Information Security",
-      desc: "This course lays the foundation for understanding terminology, principles, processes and best practices of information security at local and global levels. It further provides an overview of basic security vulnerabilities and countermeasures for protecting information assets through planning and administrative controls within an organization. ",
+      desc: "This course lays the foundation for understanding terminology, principles, processes and best practices of information security at local and global levels. It further provides an overview of basic security vulnerabilities and countermeasures for protecting information assets through planning and administrative controls within an organization.",
+      provision: "https://lrps.wgu.edu/provision/114581836"
     ],
     "C837" => [
       name: "Managing Web Security - CIW WSA",
@@ -463,11 +490,13 @@ defmodule Sage.Support.CourseList do
     ],
     "C857" => [
       name: "Software Quality Assurance",
-      desc: "Software Quality Assurance applies a QA focus to every phase of the software development life cycle. This course investigates best practices for quality analysis, quality planning, and testing strategies as they pertain to the everyday practice of software development. Students will come to understand how their work fits into the bigger picture: how QA, testing, and code-writing practices interact within specific process models; the potential impact of new code on existing code or on other applications; the importance of usability and the influence users have on the ultimate success of an application. Students will explore test plans, test cases, unit tests, integration tests, regression tests, usability tests, and test and review tools."
+      desc: "Software Quality Assurance applies a QA focus to every phase of the software development life cycle. This course investigates best practices for quality analysis, quality planning, and testing strategies as they pertain to the everyday practice of software development. Students will come to understand how their work fits into the bigger picture: how QA, testing, and code-writing practices interact within specific process models; the potential impact of new code on existing code or on other applications; the importance of usability and the influence users have on the ultimate success of an application. Students will explore test plans, test cases, unit tests, integration tests, regression tests, usability tests, and test and review tools.",
+      provision: "https://lrps.wgu.edu/provision/126266342"
     ],
     "C867" => [
       name: "Scripting and Programming - Applications",
-      desc: "In this undergraduate course students explore the various aspects of the C++ programming language by examining its syntax, the development environment, and tools and techniques to solve some real-world problems."
+      desc: "In this undergraduate course students explore the various aspects of the C++ programming language by examining its syntax, the development environment, and tools and techniques to solve some real-world problems.",
+      provision: "http://lrps.wgu.edu/provision/6411836"
     ],
     "C868" => [
       name: "Software Development Capstone",
@@ -479,19 +508,23 @@ defmodule Sage.Support.CourseList do
     ],
     "C949" => [
       name: "Data Structures and Algorithms I",
-      desc: "Data Structures and Algorithms I covers the fundamentals of dynamic data structures, such as bags, lists, stacks, queues, trees, hash tables, and their associated algorithms. With Python software as the basis, the course discusses object-oriented design and abstract data types as a design paradigm. The course emphasizes problem solving and techniques for designing efficient, maintainable software applications. Students will implement simple applications using the techniques learned. This course has one prerequisite: Software 1."
+      desc: "Data Structures and Algorithms I covers the fundamentals of dynamic data structures, such as bags, lists, stacks, queues, trees, hash tables, and their associated algorithms. With Python software as the basis, the course discusses object-oriented design and abstract data types as a design paradigm. The course emphasizes problem solving and techniques for designing efficient, maintainable software applications. Students will implement simple applications using the techniques learned. This course has one prerequisite: Software 1.",
+      provision: "https://lrps.wgu.edu/provision/142888143"
     ],
     "C950" => [
       name: "Data Structures and Algorithms II",
-      desc: "Data Structures and Algorithms II explores the analysis and implementation of high-performance data structures and supporting algorithms, including graphs, hashing, self-adjusting data structures, set representations, and dynamic programming. The course also introduces students to NP-complete problems. The course discusses how to use Python techniques to implement software solutions for problems of memory management and data compression. This course has one prerequisite: Data Structures and Algorithms I (C949)."
+      desc: "Data Structures and Algorithms II explores the analysis and implementation of high-performance data structures and supporting algorithms, including graphs, hashing, self-adjusting data structures, set representations, and dynamic programming. The course also introduces students to NP-complete problems. The course discusses how to use Python techniques to implement software solutions for problems of memory management and data compression. This course has one prerequisite: Data Structures and Algorithms I (C949).",
+      provision: "https://lrps.wgu.edu/provision/133943150"
     ],
     "C951" => [
       name: "Introduction to Artificial Intelligence",
-      desc: "Introduction to Artificial Intelligence explores the foundational principles and practices of artificial intelligence (AI), machine learning, and robotics. The course prepares students to analyze relationships, build agents, and create models relevant to AI problems. The prerequisites for this course are Introduction to Probability and Statistics as well as Data Structures and Algorithms II."
+      desc: "Introduction to Artificial Intelligence explores the foundational principles and practices of artificial intelligence (AI), machine learning, and robotics. The course prepares students to analyze relationships, build agents, and create models relevant to AI problems. The prerequisites for this course are Introduction to Probability and Statistics as well as Data Structures and Algorithms II.",
+      provision: "https://lrps.wgu.edu/provision/141558358"
     ],
     "C952" => [
       name: "Computer Architecture",
-      desc: "Computer Architecture introduces students to concepts and characteristics of organization and architecture applied to modern computer systems, including performance, processor, memory, I/O, and multiprocessors to optimize system design, performance, and efficiency."
+      desc: "Computer Architecture introduces students to concepts and characteristics of organization and architecture applied to modern computer systems, including performance, processor, memory, I/O, and multiprocessors to optimize system design, performance, and efficiency.",
+      provision: "https://lrps.wgu.edu/provision/141489773"
     ],
     "C958" => [
       name: "Calculus I",
