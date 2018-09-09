@@ -590,7 +590,7 @@ defmodule Sage.Support.CourseList do
     "C779" => [
       name: "Web Development Foundations - CIW Site Development Fundamentals",
       desc: "This course introduces students to web design and development by presenting them with HTML5 and CSS, the foundational languages of the web, by reviewing media strategies, and by using tools and techniques commonly employed in web development.",
-      link:"https://my.wgu.edu/courses/course/7740002",
+      link: "https://my.wgu.edu/courses/course/7740002",
       provision: "https://lrps.wgu.edu/provision/85273497"
     ],
     "C836" => [
