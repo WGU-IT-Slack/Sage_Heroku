@@ -707,7 +707,7 @@ defmodule Sage.Support.CourseList do
       link: "https://my.wgu.edu/courses/course/10940005",
       provision: "https://lrps.wgu.edu/provision/125136006"
 
-    ]
+    ],
     "C923" => [
       name: "Cloud Applications",
       desc: "Cloud Applications teaches students to implement and maintain cloud technologies and enables them to jump into a rapidly growing market. As more businesses shift their IT operations to cloud platforms, skills in cloud computing and virtualization have become a frequently required qualification for IT professionals. This course prepares students for the following certification exam: CV0-002 CompTIA Cloud+. While it is strongly recommended that students complete Cloud Foundations (C849) prior to beginning this course, there are no prerequisites.",
