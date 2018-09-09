@@ -4,7 +4,7 @@ defmodule Sage.Responders.SillyResponses do
   require Logger
 
   @usage """
-  hedwig slap <target> - slaps <target> around a bit with a large trout
+  bubo slap <target> - slaps <target> around a bit with a large trout
   """
   respond ~r/slap (?:me|([^\s]+))\s*$/i, msg do
     target = Map.get(msg.matches, 1, get_username(msg.user))
