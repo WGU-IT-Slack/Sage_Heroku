@@ -441,13 +441,13 @@ defmodule Sage.Support.CourseList do
       name: "Ethical Hacking - EC-CEH",
       desc: "Learner competence will be assessed through the EC-Council Certified Ethical Hacker Exam 312-50 for this course. Topics will include how to expose system vulnerabilities and learn solutions for eliminating and/or preventing vulnerabilities; and how to apply hacking skills on different types of networks and platforms.",
       link: "No course link known",
-      provision: "No provision link known"
+      provision: "https://lrps.wgu.edu/provision/54257837"
     ],
     "C702" => [
       name: "Forensics and Network Intrusion - EC-CHFI",
       desc: "This course focuses on identifying vulnerabilities and neutralizing threats from outside entities and on investigating and preventing lose in the cyber-domain.",
       link: "No course link known",
-      provision: "No provision link known"
+      provision: "https://lrps.wgu.edu/provision/115175619"
     ],
     "C706" => [
       name: "Secure Software Design",
