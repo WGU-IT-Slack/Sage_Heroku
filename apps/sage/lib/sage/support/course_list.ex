@@ -416,8 +416,8 @@ defmodule Sage.Support.CourseList do
     "C688" => [
       name: "Cyber Warfare",
       desc: "This course introduces you to the real-world battlefield of cyberspace. It covers the history of cyberwarfare and the variety of new concerns its emergence has fostered. This course explores how cyberwarfare has become an important part of the modern military arsenal and provides strategies for protecting a threatened network, as well as strategies for dealing with specific cyber war actors and threats. It then concludes with an exploration of the future of cyberwarfare considering the evolution of cyber-related capabilities, current threats, and emerging technology",
-      link: "No course link known",
-      provision: "No provision link known"
+      link: "https://my.wgu.edu/courses/course/7520003",
+      provision: "https://lrps.wgu.edu/provision/82246658"
     ],
     "C697" => [
       name: "Operating Systems I",
@@ -434,8 +434,8 @@ defmodule Sage.Support.CourseList do
     "C700" => [
       name: "Secure Network Design",
       desc: "This course provides an in-depth look at organizational challenges and threats to networks that are connected to the public Internet. Network security will be discussed in the context of how hackers gain access to networks and the use of Firewalls and VPNs to provide security countermeasures. Also covered are methods and technologies to prepare the student to disarm threats, plan for emerging technologies and future attacks.",
-      link: "No course link known",
-      provision: "No provision link known"
+      link: "https://my.wgu.edu/courses/course/6040001",
+      provision: "https://lrps.wgu.edu/provision/67698423"
     ],
     "C701" => [
       name: "Ethical Hacking - EC-CEH",
@@ -452,8 +452,8 @@ defmodule Sage.Support.CourseList do
     "C706" => [
       name: "Secure Software Design",
       desc: "This course provides students with a practical guide to establishing proactive software security. The course focuses on analyzing risks, understanding likely points of attack and proactively deciding how software will handle attacks of the future. By looking at the systemic threats in any deployment environment and discussing vulnerabilities of various applications, this course shows the student how to construct software that can deal with both known and unknown attacks preemptively.",
-      link: "No course link known",
-      provision: "No provision link known"
+      link: "https://my.wgu.edu/courses/course/5820001",
+      provision: "https://lrps.wgu.edu/provision/71921086"
     ],
     "C740" => [
       name: "Fundamentals of Data Analytics",
@@ -837,19 +837,19 @@ defmodule Sage.Support.CourseList do
     "FXT2" => [
       name: "Disaster Recovery Planning, Prevention and Response",
       desc: "This course prepares students to plan and execute industry best practices related to conducting organization-wide information assurance initiatives and to preparing an organization for implementing a comprehensive Information Assurance Management program. ",
-      link: "No course link known",
+      link: "https://my.wgu.edu/courses/course/20243",
       provision: "No provision link known"
     ],
     "JIT2" => [
       name: "Risk Management",
       desc: "Content focuses on categorizing levels of risk and understanding how risk can impact the operations of the business through a scenario involving the creation of a risk management program and business continuity program for a company and a business situation reacting to a crisis/disaster situation affecting the company.",
-      link: "No course link known",
+      link: "https://my.wgu.edu/courses/course/6560005",
       provision: "No provision link known"
     ],
     "LQT2" => [
       name: "Information Security and Assurance Capstone Project",
       desc: "Students will be able to choose from three areas of emphasis, depending on personal and professional interests. Students will complete a capstone project that deals with a significant real-world business problem that further integrates the components of the degree. Capstone projects will require an oral defense before a committee of WGU faculty.",
-      link: "No course link known",
+      link: "https://my.wgu.edu/courses/course/1448",
       provision: "No provision link known"
     ],
     "LYT2" => [
@@ -903,7 +903,7 @@ defmodule Sage.Support.CourseList do
     "TFT2" => [
       name: "Cyberlaw, Regulations, and Compliance",
       desc: "Cyberlaw, Regulations and Compliance prepares students to participate in legal analysis of relevant cyberlaws and address governance, standards, policies, and legislation. Students will conduct a security risk analysis for an enterprise system. In addition, students will determine cyber requirements for third‐party vendor agreements. Students will also evaluate provisions of both the 2001 and 2006 USA PATRIOT Acts.",
-      link: "No course link known",
+      link: "https://my.wgu.edu/courses/course/2003",
       provision: "No provision link known"
     ],
     "TPV1" => [
@@ -915,7 +915,7 @@ defmodule Sage.Support.CourseList do
     "VLT2" => [
       name: "Security Policies and Standards - Best Practices",
       desc: "This course focuses on the practices of planning and implementing organization-wide security and assurance initiatives as well as auditing assurance processes.",
-      link: "No course link known",
+      link: "https://my.wgu.edu/courses/course/1180002",
       provision: "No provision link known"
     ],
     "WPV1" => [
