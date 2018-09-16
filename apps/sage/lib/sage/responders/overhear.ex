@@ -56,4 +56,6 @@ defmodule Sage.Responders.Overhear do
       "http://i.imgur.com/ersspRE.gif",
     ])
   end
+    defp get_username(user) when is_binary(user), do: user
+    defp get_username(%{name: name}), do: name
 end
