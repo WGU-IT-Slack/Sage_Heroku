@@ -20,6 +20,10 @@ defmodule Sage.Responders.Overhear do
     emote msg, "high fives #{recipient}"
   end
 
+  hear ~r/^joined #testing-test-bubo/, msg do
+    send msg "@#{get_username(msg.user)}, welcome to the slack group. Start by introducing yourself and letting everyone know what program you're in"
+  end
+
   hear ~r/^joined #testing/, msg do
     emote msg, "debug"
   end
