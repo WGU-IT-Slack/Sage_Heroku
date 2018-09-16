@@ -21,8 +21,8 @@ defmodule Sage.Responders.Overhear do
   end
 
   hear ~r/^joined #testing-test-bubo/, msg do
-    send msg "#{get_username(msg.user)}, welcome to the slack group. Start by introducing yourself and letting everyone know what program you're in (test line 1)"
-    send msg "@#{get_username(msg.user)}, welcome to the slack group. Start by introducing yourself and letting everyone know what program you're in (test line 2)"
+    send msg, "#{get_username(msg.user)}, welcome to the slack group. Start by introducing yourself and letting everyone know what program you're in (test line 1)"
+    send msg, "@#{get_username(msg.user)}, welcome to the slack group. Start by introducing yourself and letting everyone know what program you're in (test line 2)"
   end
 
   hear ~r/^joined #testing/, msg do
