@@ -35,8 +35,8 @@ defmodule Sage.Responders.Overhear do
 
   # Relax
   hear ~r/just relax/, msg do
-    send msg, "https://i.gifer.com/3qkY.gif"
-    send msg, "I must kill the prime minister of Maylasia"
+    send msg, "https://thumbs.gfycat.com/FabulousShadowyJumpingbean-size_restricted.gif"
+    send msg, "Relax......."
   end
 
   # Keeping order
