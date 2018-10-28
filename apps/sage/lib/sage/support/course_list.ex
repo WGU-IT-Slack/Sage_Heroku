@@ -173,7 +173,11 @@ defmodule Sage.Support.CourseList do
       name: "Spreadsheets",
       desc: "The Spreadsheets course will help students become proficient in using spreadsheets to analyze business problems. Students will demonstrate competency in spreadsheet development and analysis for business/accounting applications (e.g., using essential spreadsheet functions, formulas, charts, etc.)"
     ],
-    "C278" => [
+    "C277" => [
+      name: "Finite Mathematics",
+      desc: "Finite Mathematics covers the knowledge and skills necessary to apply discrete mathematics and properties of number systems to model and solve real-life problems. Topics include sets and operations; prime and composite numbers; GCD and LCM; order of operations; ordering numbers; mathematical systems including modular arithmetic, arithmetic and geometric sequences, ratio and proportion, subsets of real numbers, logic and truth tables, graphs, trees and networks, and permutation and combination."
+    ],	
+	"C278" => [
       name: "College Algebra",
       desc: "This course provides a detailed exploration into basic algebraic concepts and functions and their use in describing, interpreting, and modeling real-world situations. Topics include: real numbers, algebraic expressions, equations and inequalities, graphs and functions, polynomial and rational functions, exponential and logarithmic functions, and linear systems of equations."
     ],
@@ -545,6 +549,10 @@ defmodule Sage.Support.CourseList do
     "EDV1" => [
       name: "Software I",
       desc: "This course focuses on skills and concepts students need to know, to understand, and to apply"
+    ],
+	"EST1" => [
+      name: "Ethical Situations in Business",
+      desc: "Ethical Situations in Business explores various scenarios in business and helps students learn to develop ethical and socially responsible courses of action. Students will also learn to develop an appropriate and comprehensive ethics program for a business venture."
     ],
     "EUC1" => [
       name: "Web Development Fundamentals",
