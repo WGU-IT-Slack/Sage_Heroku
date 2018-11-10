@@ -510,9 +510,17 @@ defmodule Sage.Support.CourseList do
       name: "Discrete Math II",
       desc: "Discrete Mathematics II addresses abstract discrete computational methods used in computer science. In particular, this class introduces searching and sorting algorithms, big-O estimates, number theory and cryptography, recursion and induction, counting and advanced counting techniques, discrete probability, and modeling computation. There is also an emphasis on applications in computer science. Discrete Mathematics I is a prerequisite for this course."
     ],
+    "C963" => [
+      name: "American Politics and the US Constituion",
+      desc: "American Politics and the US Constitution examines the evolution of representative government in the United States and the changing interpretations of the civil rights and civil liberties protected by the Constitution. This course will give students an understanding of the powers of the branches of the federal government, the continual tensions inherent in a federal system, the shifting relationship between state and federal governments, and interactions between elected officials and the ever-changing electorate. This course will focus on such topics as the role of a free press in a democracy, the impact of changing demographics on American politics, and the debates over and expansion of civil rights. Upon completion of the course, students should be able to explain the basic functions of the federal government, describe the forces that shape American policy and politics, and be better prepared to participate in America’s civic institutions. This course has no prerequisite."
+    ],   
     "C964" => [
       name: "Computer Science Capstone",
       desc: "The Computer Science Capstone course allows the student to demonstrate their application of the academic and professional abilities developed during the BSCS program. The capstone challenges students to integrate skills and knowledge from all program domains into one project."
+    ],
+    "C968" => [
+      name: "Software I - C#",
+      desc: "Software I builds object-oriented programming expertise and introduces powerful new tools for C# application development. You will learn about and put into action: class design, exception handling, and other object-oriented principles and constructs to develop software that meets business requirements. This course requires foundational knowledge of object-oriented programming. Scripting and Programming: Foundations and Scripting and Programming: Applications are prerequisites for this course."
     ],
     "CNV1" => [
       name: "Designing Customized Security",
