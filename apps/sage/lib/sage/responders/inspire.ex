@@ -18,7 +18,7 @@ defmodule Sage.Responders.Inspire do
   """
   @spec fetch_img() :: String.t
   def fetch_img do
-    url = "http://inspirobot.me/api"
+    url = "https://inspirobot.me/api"
     opts = [params: [generate: true]]
 
     case HTTPoison.get(url, [], opts) do
