@@ -522,6 +522,10 @@ defmodule Sage.Support.CourseList do
       name: "Software I - C#",
       desc: "Software I builds object-oriented programming expertise and introduces powerful new tools for C# application development. You will learn about and put into action: class design, exception handling, and other object-oriented principles and constructs to develop software that meets business requirements. This course requires foundational knowledge of object-oriented programming. Scripting and Programming: Foundations and Scripting and Programming: Applications are prerequisites for this course."
     ],
+    "C993" => [
+    	name: "Structured Query Language - 1Z0-0711",
+	desc: "This course prepares the student for the Oracle Database SQL (1Z0-071) certification exam. Students will master the SQL language that will allow them to restrict and sort data, create schema objects, control user access, and manage data, objects and tables."
+    ],
     "CNV1" => [
       name: "Designing Customized Security",
       desc: "Designing Customized Security outlines the sequence of learning activities to help students develop competence in the subject area of securing networks, which deals specifically with Cisco networks. It prepares students for the Cisco 640-553 IINS certification exam."
