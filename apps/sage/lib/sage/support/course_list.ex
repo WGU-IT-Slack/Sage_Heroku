@@ -476,11 +476,14 @@ defmodule Sage.Support.CourseList do
     "C917" => [
       name: "Network Design Foundations",
       desc: "Network Design Foundations explores enterprise environments that require networks designed for performance, availability, and scalability with the flexibility to meet rapidly evolving demands. Skilled IT professionals who possess up-to-date, fundamental network design skills are needed in order to meet these challenges head-on. C246: Fundamentals of Interconnecting Network Devices or Cisco Certified Entry Networking Technician (CCENT) certification is a prerequisite for this course."
-
     ],
     "C923" => [
       name: "Cloud Applications",
       desc: "Cloud Applications teaches students to implement and maintain cloud technologies and enables them to jump into a rapidly growing market. As more businesses shift their IT operations to cloud platforms, skills in cloud computing and virtualization have become a frequently required qualification for IT professionals. This course prepares students for the following certification exam: CV0-002 CompTIA Cloud+. While it is strongly recommended that students complete Cloud Foundations (C849) prior to beginning this course, there are no prerequisites."
+    ],
+    "C924" => [
+      name: "Cloud Deployment and Operations",
+      desc: "Cloud Deployment and Operations provides students with the technical skills in deployment, management, and operations of cloud services. This course allows students to examine stability and scalability, backup and recovery processes, and deployment best practices. Provisioning of cloud resources, monitoring of cloud resources, and managing connectivity are also examined. Competency in this course is demonstrated by successfully completing the Amazon Web Services (AWS) Certified SysOps Administrator - Associate certification exam. - The following courses are prerequisites: Cloud Applications (C923)"
     ],
     "C949" => [
       name: "Data Structures and Algorithms I",
@@ -510,6 +513,10 @@ defmodule Sage.Support.CourseList do
       name: "Discrete Math II",
       desc: "Discrete Mathematics II addresses abstract discrete computational methods used in computer science. In particular, this class introduces searching and sorting algorithms, big-O estimates, number theory and cryptography, recursion and induction, counting and advanced counting techniques, discrete probability, and modeling computation. There is also an emphasis on applications in computer science. Discrete Mathematics I is a prerequisite for this course."
     ],
+    "C961" => [
+      name: "Ethics in Technology",
+      desc: "Ethics in Technology examines the ethical considerations of technology in each of four categories: privacy, accuracy, property, and access. The course presents a range of technologies and issues that challenge technologists in the field of information ethics. Students are introduced to a decision-making process as informed by ethical frameworks that outline key ethical considerations within the technologies presented. Students will study specific cases to help inform their professional responsibilities in how to navigate the important controversies in topics such as surveillance, social media, hacking, data manipulation, plagiarism and piracy, artificial intelligence, responsible innovation, and the digital divide. This course has no prerequisites."
+    ], 
     "C963" => [
       name: "American Politics and the US Constituion",
       desc: "American Politics and the US Constitution examines the evolution of representative government in the United States and the changing interpretations of the civil rights and civil liberties protected by the Constitution. This course will give students an understanding of the powers of the branches of the federal government, the continual tensions inherent in a federal system, the shifting relationship between state and federal governments, and interactions between elected officials and the ever-changing electorate. This course will focus on such topics as the role of a free press in a democracy, the impact of changing demographics on American politics, and the debates over and expansion of civil rights. Upon completion of the course, students should be able to explain the basic functions of the federal government, describe the forces that shape American policy and politics, and be better prepared to participate in America’s civic institutions. This course has no prerequisite."
