@@ -20,9 +20,11 @@ defmodule Sage.Responders.Triggers do
 
   @triggers %{
     "hello" => "Hi there!",
+    "howdy" => "Howdy partner! :face_with_cowboy_hat:",
     "goodbye" => "See ya!",
     "no" => "Noooo! https://www.youtube.com/watch?v=umDr0mPuyQc",
     "nope" => "https://media.giphy.com/media/6h4z4b3v6XWxO/giphy.gif",
+    "darkmode" => "#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000",
     "colors" => "#003057,#4986AD,#C69214,#FFFFFF,#4986AD,#FFFFFF,#509E2F,#862633",
     "git" => "https://github.com/WGU-IT-Slack/Sage_Heroku/tree/master/apps/sage",
     "contributing" => "To help me get better you can *fork* https://github.com/WGU-IT-Slack/Sage_Heroku, *commit* your changes, and then make a *pull request*!",
