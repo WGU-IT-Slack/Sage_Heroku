@@ -8,6 +8,7 @@ defmodule Channel do
     "G5YGDFA07", # bubo-test
     "C5YHBTNG6", # testing
     "C757ANLSK", # inspire
+    "DG9GBR19A", # bubo DM
   ]
 
   @doc """
