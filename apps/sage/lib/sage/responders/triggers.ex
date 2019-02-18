@@ -85,14 +85,27 @@ defmodule Sage.Responders.Triggers do
   def getbook do
     Application.ensure_all_started :inets
 
-    {:ok, resp} = :httpc.request(:get, {'https://www.packtpub.com/packt/offers/free-learning', []}, [], [body_format: :binary])
+    today = ( Date.utc_today |> Date.to_string ) <> "T00:00:00.000Z" |> to_charlist
+    tomorrow = ( Date.utc_today |> Date.add(1) |> Date.to_string ) <> "T00:00:00.000Z" |> to_charlist
+    offersURL = 'https://services.packtpub.com/free-learning-v1/offers?dateFrom='++today++'&dateTo='++tomorrow
+    {:ok, resp} = :httpc.request(:get, {offersURL, []}, [], [body_format: :binary])
     {{_, 200, 'OK'}, _headers, body} = resp
-    title = Floki.find(body, "h2.product__title")
-    |> Floki.text()
-    |> String.trim()
-    author = Floki.find(body, "p.product__author")
-    |> Floki.text()
-    |> String.trim()
-    result = "Today's free book is: \n" <> title <> "\nBy:" <> author <> "\nhttps://www.packtpub.com/packt/offers/free-learning"
+    json = Poison.decode!(body)
+    if json["count"] >= 1 do
+      productId = hd(json["data"])["productId"] |> to_charlist
+      summaryURL = 'https://static.packt-cdn.com/products/'++productId++'/summary'
+      {:ok, resp} = :httpc.request(:get, {summaryURL, []}, [], [body_format: :binary])
+      {{_, 200, 'OK'}, _headers, body} = resp
+      json = Poison.decode!(body)
+      title = json["title"]
+      author = hd(json["authors"]) |> to_charlist
+      authorURL = 'https://static.packt-cdn.com/authors/'++author
+      {:ok, resp} = :httpc.request(:get, {authorURL, []}, [], [body_format: :binary])
+      {{_, 200, 'OK'}, _headers, body} = resp
+      json = Poison.decode!(body)
+      result = "Today's free book is: \n" <> title <> "\nBy:" <> json["author"] <> "\nhttps://www.packtpub.com/packt/offers/free-learning"
+    else
+      result = "There is no free book today\nhttps://www.packtpub.com/packt/offers/free-learning"
+    end
   end
 end
