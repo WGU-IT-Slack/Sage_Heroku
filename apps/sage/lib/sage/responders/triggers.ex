@@ -82,17 +82,43 @@ defmodule Sage.Responders.Triggers do
     |> String.downcase()
   end
 
+  def add_day(date) do
+    cond do
+      date.day < Date.days_in_month(date) ->
+        {:ok, new_date} = Date.new(date.year, date.month, date.day+1)
+        new_date
+      date.month < 12 ->
+        {:ok, new_date} = Date.new(date.year, date.month+1, 1)
+        new_date
+      true ->
+        {:ok, new_date} = Date.new(date.year+1, 1, 1)
+        new_date
+    end
+  end
+
   def getbook do
     Application.ensure_all_started :inets
 
-    {:ok, resp} = :httpc.request(:get, {'https://www.packtpub.com/packt/offers/free-learning', []}, [], [body_format: :binary])
+    today = '#{Date.utc_today}T00:00:00.000Z'
+    tomorrow = '#{Date.utc_today |> add_day}T00:00:00.000Z'
+    offersURL = 'https://services.packtpub.com/free-learning-v1/offers?dateFrom=#{today}&dateTo=#{tomorrow}'
+    {:ok, resp} = :httpc.request(:get, {offersURL, []}, [], [body_format: :binary])
     {{_, 200, 'OK'}, _headers, body} = resp
-    title = Floki.find(body, "h2.product__title")
-    |> Floki.text()
-    |> String.trim()
-    author = Floki.find(body, "p.product__author")
-    |> Floki.text()
-    |> String.trim()
-    result = "Today's free book is: \n" <> title <> "\nBy:" <> author <> "\nhttps://www.packtpub.com/packt/offers/free-learning"
+    productId = get_in(Poison.decode!(body), ["data", Access.at(0), "productId"])
+    if productId != nil do
+      summaryURL = 'https://static.packt-cdn.com/products/#{productId}/summary'
+      {:ok, resp} = :httpc.request(:get, {summaryURL, []}, [], [body_format: :binary])
+      {{_, 200, 'OK'}, _headers, body} = resp
+      json = Poison.decode!(body)
+      title = json["title"]
+      author = hd(json["authors"])
+      authorURL = 'https://static.packt-cdn.com/authors/#{author}'
+      {:ok, resp} = :httpc.request(:get, {authorURL, []}, [], [body_format: :binary])
+      {{_, 200, 'OK'}, _headers, body} = resp
+      json = Poison.decode!(body)
+      "Today's free book is: \n#{title}\nBy:#{json["author"]}\nhttps://www.packtpub.com/packt/offers/free-learning"
+    else
+      "There is no free book today\nhttps://www.packtpub.com/packt/offers/free-learning"
+    end
   end
 end
