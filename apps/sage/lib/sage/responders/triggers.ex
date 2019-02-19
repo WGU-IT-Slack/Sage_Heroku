@@ -22,6 +22,7 @@ defmodule Sage.Responders.Triggers do
     "mods"  => ":mod: The current mods are: Desi, Selenity Lunare, & ItsFortyBelow (with hammer as the admin). :mod:\nIf you see a problem and believe moderator intervention is needed, please do not hesitate to directly message them or tag them within the channel (by adding the '@' sign in front of their name, example: @bubo).\n_Moderators are elected every 6 months. The next moderator election is due: August 10, 2019_",
     "hello" => "Hi there!",
     "howdy" => "Howdy partner! :face_with_cowboy_hat:",
+    "later" => "Later, :alligator:.\nAfter a while, :crocodile:!",	
     "goodbye" => "See ya!",
     "no" => "Noooo! https://www.youtube.com/watch?v=umDr0mPuyQc",
     "nope" => "https://media.giphy.com/media/6h4z4b3v6XWxO/giphy.gif",
