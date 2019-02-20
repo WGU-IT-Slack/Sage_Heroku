@@ -34,6 +34,7 @@ defmodule Sage.Responders.Triggers do
     "linkedin" => "Connect with your fellow slackers. https://docs.google.com/document/d/1ajGLPZpWuxzDtEmWiVxvwxbwFRy0BcdPI0koaa_Zvc4/edit",
     "onthehub" => "https://wgudreamspark.onthehub.com/WebStore/ProductsByMajorVersionList.aspx?cmi_cs=1&cmi_mnuMain=2b44b80c-dfc9-e111-971c-f04da23e67f6",
     "ugt" => "UGT (abbr.): Universal Greeting Time.\n_UGT_ is a convention that states that it is always morning when person comes into a channel, and it is always late night when person leaves. Local time of any member of channel is irrelevant.",
+    "graduation" => ":mortar_board: :tada: :tada: :tada: :tada: :tada: :mortar_board:\n:celebrate:   Congratulations!   :celebrate:\n:mortar_board: :tada: :tada: :tada: :tada: :tada: :mortar_board:\nOn behalf of the WGUit Slack group, all WGU students, faculty, and alumni,\nI would like to extend a heartfelt congratulations to you, graduate,\nand express my best wishes for your continued success. Well done!",	
     "y" => "http://i.imgur.com/yZRYrIF.jpg",
     "portal" => "Here's the WGU portal! :wgu: https://my.wgu.edu",
     "reddit" => "Here's the WGU subreddit! :reddit: https://www.reddit.com/r/WGU/",
