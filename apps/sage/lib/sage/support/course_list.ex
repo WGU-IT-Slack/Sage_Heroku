@@ -309,6 +309,14 @@ defmodule Sage.Support.CourseList do
       name: "Secure Software Design",
       desc: "This course provides students with a practical guide to establishing proactive software security. The course focuses on analyzing risks, understanding likely points of attack and proactively deciding how software will handle attacks of the future. By looking at the systemic threats in any deployment environment and discussing vulnerabilities of various applications, this course shows the student how to construct software that can deal with both known and unknown attacks preemptively."
     ],
+    "C727" => [
+      name: "Cybersecurity Management I - Strategic",
+      desc: "This course introduces the Basel Committee’s “four lines of defense” model to appropriately implement separation of duties and information security roles and structures. Additionally, this course covers big-picture items (e.g., how risk management will be performed institutionally and how compliance to information security requirements will be managed)."
+    ],
+    "C795" => [
+      name: "Cybersecurity Management II - Tactical",
+      desc: "The tactical management process enables organizations to address unique cyber requirements throughout the organization. It deals with the people, processes, and technologies that are in use, and it primarily centers on the current operations of the enterprise."
+    ],
     "C740" => [
       name: "Fundamentals of Data Analytics",
       desc: "This courses provides an introduction to a variety of tools and techniques used in the field of data analytics. Students will summarize data, review statistical models, explore data mining techniques, and contemplate ethical considerations associated with the field of data analytics. This course presents a survey of concepts which will be explored more in-depth in subsequent courses in the MS Data Analytics program. "
