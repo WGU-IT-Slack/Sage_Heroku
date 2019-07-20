@@ -23,7 +23,7 @@ defmodule Sage.Responders.Triggers do
     "bcuz" => "http://i.imgur.com/j6nbopM.png",
     "colors" => "#003057,#4986AD,#C69214,#FFFFFF,#4986AD,#FFFFFF,#509E2F,#862633",
     "contributing" => "To help me get better you can *fork* https://github.com/WGU-IT-Slack/Sage_Heroku, *commit* your changes, and then make a *pull request*!",
-    "darkmode" => "#000000,#000000,#000000,#000000,#000000,#000000,#000000,#000000",
+    "darkmode" => "#121417,#2F343D,#2F343D,#ABB2BF,#2F343D,#ABB2BF,#98C379,#98C379",
     "discount"=> "Student Discount List. Need to add a discount to this list? Post in #feedback for changes: https://docs.google.com/document/d/1cU-6kOuv-wGVaDbfY-H369gF0noasYc-p-bNnltKpD4/edit?usp=sharing",
     "exercism"=> "Want to practice coding problems and see solutions from other WGU students/alumni? Our team is: http://exercism.io/teams/wgu/streams",
     "freebook" => "",
