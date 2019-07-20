@@ -35,6 +35,7 @@ defmodule Sage.Responders.Triggers do
     "guidelines" => "1. Personal attacks are unacceptable. Bullying or harassment will not be tolerated. \n2. Hate speech is not permitted.\n3. Do not deliberately disrupt the community.\n4. Illegal activity, XXX content, and discussion of politics are not allowed.\n5. No soliciting, advertising, or marketing (unless it’s for a job posting in the #job-listings channel).\n6. Nothing allowed that may be against the WGU Student Code of Conduct.\n7. Use the proper channel for discussions.\n\nSlack members that don’t adhere to these guidelines will be given warnings, and chronic offenders may be removed from the Slack. We want to create the best possible atmosphere for WGU IT students, and keeping our group respectful and accessible is priority.",
     "hello" => "Hi there!",
     "howdy" => "Howdy partner! :face_with_cowboy_hat:",
+    "linkedin" => "Connect with your fellow slackers. https://docs.google.com/spreadsheets/d/12HtPG9IdXnagrXGu9OGpSAOEcdc6GvG9vXjOT0aTbxU/edit?usp=sharing",
     "labsim" => "Access Net+ Labsim via: http://lrps.wgu.edu/provision/6147901 and Sec+ via: https://lrps.wgu.edu/provision/42540372",
     "later" => "Later, :alligator:.\nAfter a while, :crocodile:!",
     "lynda" => "WGU offers students and alumni free access to Lynda.com. Learn a new skill online, on your time. Courses in Business, Technology, and Creative Skills taught by industry experts.  https://lrps.wgu.edu/provision/106596159",
