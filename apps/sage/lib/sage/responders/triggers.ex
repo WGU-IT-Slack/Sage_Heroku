@@ -37,7 +37,6 @@ defmodule Sage.Responders.Triggers do
     "howdy" => "Howdy partner! :face_with_cowboy_hat:",
     "labsim" => "Access Net+ Labsim via: http://lrps.wgu.edu/provision/6147901 and Sec+ via: https://lrps.wgu.edu/provision/42540372",
     "later" => "Later, :alligator:.\nAfter a while, :crocodile:!",
-    "linkedin" => "Connect with your fellow slackers. https://docs.google.com/spreadsheets/d/12HtPG9IdXnagrXGu9OGpSAOEcdc6GvG9vXjOT0aTbxU/edit?usp=sharing",
     "lynda" => "WGU offers students and alumni free access to Lynda.com. Learn a new skill online, on your time. Courses in Business, Technology, and Creative Skills taught by industry experts.  https://lrps.wgu.edu/provision/106596159",
     "mods"  => ":mod: The current mods are: Desi, Selenity Lunare, & ItsFortyBelow (with hammer as the admin). :mod:\nIf you see a problem and believe moderator intervention is needed, please do not hesitate to directly message them or tag them within the channel (by adding the '@' sign in front of their name, example: @bubo).\n_Moderators are elected every 6 months. The next moderator election is due: August 10, 2019_",
     "no" => "Noooo! https://www.youtube.com/watch?v=umDr0mPuyQc",
