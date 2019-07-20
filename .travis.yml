@@ -7,7 +7,3 @@ matrix:
 script: mix test --trace --color
 after_success:
     "curl $DEPLOYHOOK"
-deploy: 
-  provider: heroku
-  api_key:
-    secure: "MWahI3Zzqld8tYYbN+FoYe+YFjurCfaMdpKxTu9+/OOmcIjpw2JosWOPhBDFcyMYHNlMIPEn0/+U7r07DZTAo2imEKJVbTAQYN02SmjUlRJ5z08uL9MtK18qfy7GoIIpQWNuktEKN3CCD7cQ+oBYJJ4/Lwrq65IGdwL68Ab30O2Hz6MvLdhOWy2HTrbRgYYIY4KKe6/jxg2O77Du1HX5roaW61E8ghv/H/8HBGxO2WgD2U2AcZWGYDbwNfpXlhQjOgazgLg6cK8oozhG43UyPy5Mh+LhNAAw2YOmu1MwmxevIbZ5f8gBjrRNKWkoj3PXSgIurxq/R1KmETSzStax0XycBFwntYnCqUOit65JlMUf9C0KkicdQw2rLq+DZZqhfO20IxgfyixvKSWkJIMjt740OpQfNAZzENROWs722jCLt5Mrrs3c/DDoKhJjkKngfEdkT4W1paIn2AYvYUbNBXu+T/VoT1doqcDQOcGcNQa+E/mJLI8Uz+UokpbnBuWRO+RvziHXYk+UXbmb7GqmuRc+oulh+e2KH3KUFRxLJnR67s3cNPa4vsKRbs79hdqWjLPvHjG4Vo+YBl1K78LZtvKR6VYVMlBrKnzRJhfUlGC65dSKf11+zXiE4ekUDncFa047fAn+UpvNL6Obcj6IMhrZAm8QkZLKm9pUMyW6thQ="
