@@ -6,6 +6,6 @@ defmodule Sage.Responders.InspireTest do
   test "inspires you", %{adapter: adapter, msg: msg} do
     send adapter, {:message, %{msg | text: "alfred inspire me"}}
     assert_receive {:message, %{text: text}}, 1000
-    assert String.contains?(text, "https://generated.inspirobot.me/")
+    assert String.contains?(text, "http://generated.inspirobot.me/")
   end
 end
